@@ -1,4 +1,7 @@
 
+#ugly code dont read
+
+
 def main ():
     f = open("data.txt")
     read = f.readlines()
