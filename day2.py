@@ -1,6 +1,9 @@
 def main(): 
     #Part 1
     file = openFile()
+
+
+
     allLines = file.readlines()
     points = 0
     newScore = 0
@@ -11,14 +14,13 @@ def main():
     print(newScore)
     print(getPoints2("B X"))
 
-    #Part 2
+
+
+
+
 
 # X means you need to lose, Y means you need to 
 # end the round in a draw, and Z means you need to win.
-
-
-
-
 
 
 def getPoints2(line): 
