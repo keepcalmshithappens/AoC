@@ -5,7 +5,6 @@
 def main ():
     f = open("data.txt")
     read = f.readlines()
-    #print(read)
     data = []
     lista = []
     for line in read:
@@ -43,7 +42,7 @@ def remove(list, biggest):
     newList = []
     for i in list: 
         if add(i) == biggest: 
-            print("hej")
+            print("")
         else: 
             newList.append(i)
     return newList
